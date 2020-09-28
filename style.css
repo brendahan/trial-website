@@ -42,19 +42,16 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li ul {
-  display: block;
+  display: none;
   position: absolute;
   background-color: #720606;
   padding: 10px;
   border-radius: 0px 0px 4px 4px;
 
-}nav ul li ul {
+}
+nav ul li:hover ul {
   display: block;
-  position: absolute;
-  background-color: #720606;
-  padding: 10px;
-  border-radius: 0px 0px 4px 4px;
-
+}
   nav ul li ul li {
     width: 180px;
   }
