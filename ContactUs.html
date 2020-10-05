@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contactus.css" />
+    <title>My first website</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div><img src="images/Ne.png" alt="logo" class="logo" /></div>
+        <nav><p>Qurious Designs</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="ContactUs.html">Contact us</a></li>
+            <li><a href="AboutArtist.html">About Artist</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="main">
+    <form action="contacform.php" method="get">
+      First Name<input type="text" name="your firstname" placeholder="Your first name" />
+      Last Name<input type="text" name="your last name" placeholder="Your last name" />
+      Email <address><input type="text" name="email" placeholder="Your email..." /></address>
+      Male: <input type="radio" name="gender" value="Male" /> 
+      Female: <input type="radio" name="gender" value="Female" /> 
+      Other:<input type="radio" name="gender" value="Other" checked />
+      <textarea name="message" placeholder="Write a message"></textarea>
+      <input type="submit" name="submit" />
+    </form></div>
+    <footer id="footer">
+      <p>Qurious Designs: Neumbe A. Brendah</p>
+      <p>Artist: 2010.tezlove@gmail.com</p>
+      <p>Artist: @copyright2020</p></footer>
+  </body>
+</html>
